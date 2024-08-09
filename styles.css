@@ -13,20 +13,73 @@ html {
 body {
   width: 100vw;
   min-height: 100vh;
+  padding: 2rem;
+  background-color: #eaeaea;
+  font-family: "Cantarell", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h1 {
+  width: 100%;
+  padding: 1rem;
+  background-color: #bebebe;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-family: "Fjalla One", sans-serif;
 }
 
 #main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 2rem;
   align-items: center;
 }
 #img-div {
-  width: 70%;
+  width: 80%;
 }
 
 #image {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+#img-caption {
+  text-align: center;
+  margin-top: 8px;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4rem;
+  width: 55%;
+}
+
+#contributions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.stanza {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+a {
+  color: #87400d;
+  text-decoration: none;
+}
+a:hover {
+  color: #aa6430;
 }
