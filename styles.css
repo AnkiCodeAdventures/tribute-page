@@ -76,10 +76,29 @@ h2 {
   justify-content: space-between;
   gap: 0.5rem;
 }
+
 a {
   color: #87400d;
   text-decoration: none;
 }
 a:hover {
   color: #aa6430;
+}
+
+@media (max-width: 850px) {
+  body {
+    padding: 0.8rem;
+  }
+  #tribute-info {
+    width: 75%;
+  }
+  footer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  #tribute-info {
+    width: 85%;
+  }
 }
